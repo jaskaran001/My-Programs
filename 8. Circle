@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+        float r,P,A,V;
+        float pi = 22/7.0;
+
+        printf("\nEnter The Radius of Circle: ");
+        scanf("%f",&r);
+
+        P = 2*pi*r;
+        A = pi*r*r;
+        V = 4*pi*r*r*r/3.0;
+
+        printf("\nPerimeter of Circle is: = %.2f",P);
+
+        printf("\nArea of Circle is: = %.2f",A);
+
+        printf("\nVolume of Circle is: = %.2f",V);
+
+        return 0;
+}
