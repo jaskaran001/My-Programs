@@ -1,0 +1,27 @@
+#include<stdio.h>
+int main()
+{
+
+        float x,y,a;
+
+        printf("\nEnter The Value of x: ");
+        scanf("%f",&x);
+
+        printf("\nEnter The Value of y: ");
+        scanf("%f",&y);
+
+        a = x+y;
+        printf("x + y = %.3f\n",a);
+        a = x-y;
+        printf("x - y = %.3f\n",a);
+        a = y-x;
+        printf("y - x = %.3f\n",a);
+        a = x*y;
+        printf("x * y = %.3f\n",a);
+        a = x/y;
+        printf("x/y = %.3f\n",a);
+        a = y/x;
+        printf("y/x = %.3f\n",a);
+
+        return 0;
+}
