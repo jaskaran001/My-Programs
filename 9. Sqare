@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+        float h,b,A,P;
+
+        printf("\nEnter Height: ");
+        scanf("%f",&h);
+
+        printf("\nEnter Bredth: ");
+        scanf("%f",&b);
+
+        A = h*b;
+        P = 2*(h+b);
+
+        printf("\nArea of Sqare (or) Rectangle: = %.3f",A);
+        printf("\nPerimeter of Sqare (or) Rectangle: = %.3f",P);
+
+        return 0;
+}
