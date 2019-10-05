@@ -14,7 +14,7 @@ int main()
 
         Interest = P*T*R/100;
         
-        printf("\nSimple Intesest is: = %f", Interest);
+        printf("\nSimple Intesest is: = %.2f", Interest);
 
 }
         return Interest;
