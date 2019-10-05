@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+  int n;
+  printf("\nEnter the Interger: ");
+  scanf("%d",&n);
+
+  if(n%3==0)
+  printf("\nFizz");
+  if(n%5==0)
+  printf("Buzz\n");
+  else
+  printf("\n%d",n);
+  return 0;
+}
