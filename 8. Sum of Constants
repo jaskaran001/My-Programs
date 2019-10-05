@@ -3,6 +3,6 @@ int main()
 {
         int a=100,b=120,c;
         c = a+b;
-        printf("\nSum  of a and b is :%d",c);
+        printf("\na=100\nb=120\nSum  of a and b is :%d",c);
         return 0;
 }
