@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+        float x;
+        int n;
+
+        printf("\nEnter The Table: ");
+        scanf("%f",&x);
+
+        printf("\nEnter No. Times: ");
+        scanf("%d",&n);
+
+        for(int y=1; y<=n; y++)
+  {
+        printf("\n%.2f x %d = %.3f",x,y,x*y);
+  }
+        return 0;
+}
