@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+
+        float x,a;
+
+        printf("\nEnter The Value of x: ");
+        scanf("%f",&x);
+
+        a = x;
+        printf("Answer is a = x %.3f\n",a);
+        a +=x; //answer is a+x
+        printf("Answer is a+x = %.3f\n",a);
+        a -=x; //answer is a-x
+        printf("Answer is a-x = %.3f\n",a);
+        a *=x; //answer is a*x
+        printf("Answer is a*x = %.3f\n",a);
+        a /=x; //answer is a/x
+        printf("Answer is a/x= %.3f\n",a);
+
+        return 0;
+}
